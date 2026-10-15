@@ -19,13 +19,15 @@
 
 ---
 
-## 📋 Exam Deliverables Quick Links
+## 📋 Exam Deliverables Quick Reference
 
-| Part | Section Title | Weightage | Direct Documentation Link |
+The application contains the built-in CIA-I Academic Benchmark Report accessible via the top navigation bar (**"Benchmark & CIA-I Report"** button in `index.html`).
+
+| Part | Section Title | Weightage | Implementation Reference |
 | :---: | :--- | :---: | :--- |
-| **Part-I** | **Problem Definition & Innovation** | **20 Marks** | [Part-I Report Section](docs/CIA1_EXAM_SUBMISSION_REPORT.md#part-i-problem-definition-and-innovation-20-marks) |
-| **Part-II** | **JavaScript Implementation** | **20 Marks** | [Part-II Implementation Code](js/app.js) & [Part-II Report Section](docs/CIA1_EXAM_SUBMISSION_REPORT.md#part-ii-javascript-implementation-20-marks) |
-| **Part-III** | **Documentation, Testing & Deployment** | **10 Marks** | [Part-III Report Section](docs/CIA1_EXAM_SUBMISSION_REPORT.md#part-iii-documentation-github-quality-and-deployment-10-marks) |
+| **Part-I** | **Problem Definition & Innovation** | **20 Marks** | Visual Benchmark Comparison (`assets/osm_benchmark_comparison.jpg`) & In-app Modal |
+| **Part-II** | **JavaScript Implementation** | **20 Marks** | [JavaScript Implementation Engine](js/app.js) (7 Events, Form Validation, Fetch API) |
+| **Part-III** | **Documentation, Testing & Deployment** | **10 Marks** | Live GitHub Pages: [jaliciagit.github.io/GeoPulse-OSM-Innovated/](https://jaliciagit.github.io/GeoPulse-OSM-Innovated/) |
 
 ---
 
@@ -124,7 +126,7 @@ Simply double-click `index.html` or open it with Google Chrome, Microsoft Edge, 
 - ✅ Fetch API tested for live geocoding and resilient fallback under simulated network throttling.
 - ✅ Haversine distance algorithm verified against known geographic coordinates.
 - ✅ Tested across desktop, tablet, and mobile viewports (<640px).
-- ✅ Full testing matrix documented in [docs/CIA1_EXAM_SUBMISSION_REPORT.md](docs/CIA1_EXAM_SUBMISSION_REPORT.md).
+- ✅ Full testing matrix verified for edge cases, API throttling fallback, cross-browser, and mobile compatibility.
 
 ---
 
